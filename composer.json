@@ -1,0 +1,31 @@
+{
+    "name": "constanze-standard/http-server-router",
+    "description": "Common interface for HTTP server-side router",
+    "keywords": [
+        "fluff",
+        "router",
+        "http",
+        "route",
+        "dispatcher"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Constanze-Standard",
+            "email": "omytty.alex@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ConstanzeStandard\\Standard\\Http\\Server\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
